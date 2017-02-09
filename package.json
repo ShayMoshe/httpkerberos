@@ -1,0 +1,26 @@
+{
+  "name": "httpkerberos",
+  "version": "0.0.1",
+  "description": "httpkerberos  - http requst with Kerberos authentication",
+  "main": "httpkerberos.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.intel.com/smoshe4/httpkerberos.git"
+  },
+  "keywords": [
+    "node-isso"
+  ],
+  "author": "Moshe, Shay <shay.moshe@intel.com>",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "intcCerts": "git://github.intel.com/Enterprise-PaaS/intcCerts.git",
+    "intel-cacerts": "git://github.intel.com/drpresto/cacerts.git",
+    "python-shell": "^0.4.0"
+  }
+}
